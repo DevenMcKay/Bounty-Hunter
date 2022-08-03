@@ -9,7 +9,7 @@ app.use(morgan('dev'))
 
 app.use("/bounties", require("./routes/bountiesRouter"))
 
-mongoose.connect("mongodb+srv://deven:MyAtlas1@sw-bouny-huner.m0noy.mongodb.net/Bounty-Hunter", () => console.log("Mongoose Connected to DB"))
+mongoose.connect(() => console.log("Mongoose Connected to DB"))
 
 app.use((err, req, res, next) => {
   res.send(err.message)
