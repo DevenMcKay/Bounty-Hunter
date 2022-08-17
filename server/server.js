@@ -9,7 +9,7 @@ app.use(morgan('dev'))
 
 app.use("/bounties", require("./routes/bountiesRouter"))
 
-mongoose.connect("<MONGODB USER & PASSWORD HERE>mongodb.net/Bounty-Hunter", () => console.log("Mongoose Connected to DB"))
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }, () => console.log("Mongoose Connected to DB"))
 
 app.use((err, req, res, next) => {
   res.send(err.message)
