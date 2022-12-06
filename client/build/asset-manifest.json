@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a42ae98.css",
+    "main.js": "/static/js/main.1f73dad8.js",
+    "static/media/Blood.jpg": "/static/media/Blood.d0f81e9fa939a38a87d7.jpg",
+    "static/media/Unlockable.jpg": "/static/media/Unlockable.dc7e8332570b448c977e.jpg",
+    "static/media/target.png": "/static/media/target.e6c83a48576d9351265c.png",
+    "index.html": "/index.html",
+    "main.1a42ae98.css.map": "/static/css/main.1a42ae98.css.map",
+    "main.1f73dad8.js.map": "/static/js/main.1f73dad8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a42ae98.css",
+    "static/js/main.1f73dad8.js"
+  ]
+}
